@@ -10,8 +10,7 @@ class TestCog(commands.Cog):
     
   @commands.command()
   async def test(self, ctx): #ALWAYS CARRY "SELF" AS THE FIRST ARGUMENT!
-    await ctx.send("Congrats!, you have learnt to make a working cog!")
-    return
+    return await ctx.send("Congrats!, you have learnt to make a working cog!")
   
   
   
